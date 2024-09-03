@@ -2,10 +2,10 @@
 
 total_score = 0
 
-class Quiz_Refactor:
+class Quiz_Refactor: # created a Quiz Refactor class
     def __init__(self, topic, art_and_space_questions):
-        self.topic = topic
-        self.art_and_space_questions = art_and_space_questions
+        self.topic = topic # this will give the answer of the topic to equal the answer given
+        self.art_and_space_questions = art_and_space_questions # this will give the answer of the art and space questions to equal the answer given
 
 def main():  #  creating a main method
     topic = input('Would you like art, or space questions?')
